@@ -1,0 +1,742 @@
+<title>9325 Belle Terre Way</title>
+<meta name="description" content="9325 Belle Terre Way, Potomac, Maryland. A private estate on three gated acres, presented by Shari Gronvall, Compass.">
+<meta property="og:title" content="9325 Belle Terre Way · Potomac, Maryland">
+<meta property="og:description" content="A private estate on three gated acres in Potomac, presented by Shari Gronvall, Compass.">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="9325 Belle Terre Way, a private gated estate on three acres in Potomac, Maryland.">
+<style>
+/* Layout: a gallery catalogue. Wide plates on white, text in narrow columns, tracked serif capitals for every heading. Deliberately single (light) theme, like a printed monograph. */
+:root{
+  --paper:#FFFFFF;
+  --stone:#F7F7F4;
+  --ink:#1F1E1C;
+  --muted:#57534C;
+  --rule:#D9D6CE;
+  --veil:rgba(20,19,17,.94);
+  --f-title:"Compass Serif", "Iowan Old Style", Georgia, serif;
+  --f-body:"Compass Serif Text", "Iowan Old Style", Georgia, serif;
+  --f-mark:"Compass Sans", "Helvetica Neue", Arial, sans-serif;
+  --track:.3em;
+  --gut:max(16px, env(safe-area-inset-left, 0px));
+  --gut-r:max(16px, env(safe-area-inset-right, 0px));
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+@font-face{font-family:"Compass Serif";src:url("fonts/CompassSerif-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Compass Serif Text";src:url("fonts/CompassSerifText-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Compass Sans";src:url("fonts/CompassSans-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.8;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+
+.wrap{width:100%;max-width:1320px;margin-inline:auto;padding-left:var(--gut);padding-right:var(--gut-r)}
+.caps{font-family:var(--f-title);text-transform:uppercase;letter-spacing:var(--track);font-weight:400}
+.kicker{font-family:var(--f-title);font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);margin:0}
+.num{font-family:var(--f-title);font-size:15px;letter-spacing:.34em;color:var(--muted);margin:0}
+.room{font-family:var(--f-title);font-weight:400;font-size:16px;line-height:1.5;letter-spacing:.28em;text-transform:uppercase;margin:0}
+.rule{width:40px;height:1px;background:var(--ink);border:0;margin:0}
+p{margin:0;text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:14px 30px;border:1px solid var(--ink);background:transparent;color:var(--ink);font-family:var(--f-title);font-size:12px;letter-spacing:.3em;padding-left:calc(30px + .3em);text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background .35s var(--ease),color .35s var(--ease)}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn.solid:hover{background:transparent;color:var(--ink)}
+
+/* header */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid transparent;transition:border-color .3s}
+.top.scrolled{border-bottom-color:var(--rule)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:18px;flex-wrap:wrap}
+.brand{font-family:var(--f-title);font-size:14px;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.nav{display:flex;gap:clamp(16px,3vw,40px);flex-wrap:wrap}
+.nav a{font-family:var(--f-title);font-size:12px;letter-spacing:.28em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding-block:6px}
+.nav a:hover{color:var(--ink)}
+@media (max-width:760px){.nav a:not(.keep){display:none}}
+
+/* hero */
+.hero{padding-top:clamp(16px,3vw,40px)}
+.hero figure{margin:0;overflow:hidden}
+.hero img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:50% 58%;animation:settle 2.4s var(--ease) both}
+@keyframes settle{from{transform:scale(1.04)}to{transform:scale(1)}}
+.hero-text{display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px;padding-block:clamp(48px,7vw,96px) clamp(56px,8vw,112px)}
+.hero-text h1{font-size:clamp(19px,3.4vw,40px);line-height:1.25;margin:0;padding-left:var(--track)}
+
+/* openers and statements */
+.stone{background:var(--stone)}
+.chapter{display:flex;flex-direction:column;align-items:center;text-align:center;gap:26px;padding-block:clamp(72px,9vw,120px) clamp(40px,5vw,64px)}
+.chapter h2{font-size:clamp(20px,2.6vw,30px);line-height:1.3;margin:0;padding-left:var(--track)}
+.chapter .lede{max-width:34em;text-align:left;margin-top:10px}
+.statement{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px;padding-block:clamp(64px,8vw,112px)}
+.statement .quote{font-family:var(--f-title);font-weight:400;font-size:clamp(18px,2.4vw,28px);line-height:1.55;letter-spacing:.3em;padding-left:.3em;text-transform:uppercase;max-width:22em;text-wrap:balance;margin:0}
+.statement p.body{max-width:27em;text-wrap:balance}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,2vw,24px);padding-bottom:clamp(56px,7vw,96px)}
+.cottage-duo{padding-bottom:0;padding-top:0}
+.duo .plate img{aspect-ratio:3/2;object-fit:cover}
+@media (max-width:820px){.duo{grid-template-columns:minmax(0,1fr)}}
+.statement .lede-text{max-width:34em;text-align:left;margin-top:14px}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,7vw,120px);align-items:center;padding-block:clamp(88px,11vw,150px)}
+.intro-quote{display:flex;flex-direction:column;gap:26px;padding-right:clamp(0px,3vw,48px);border-right:1px solid var(--rule)}
+.intro-quote .quote{font-family:var(--f-title);font-weight:400;font-size:clamp(20px,2.3vw,30px);line-height:1.55;letter-spacing:.24em;text-transform:uppercase;margin:0;text-wrap:balance}
+.intro-text{display:flex;flex-direction:column;gap:20px;max-width:32em;min-width:0}
+.intro-text h2{font-size:clamp(18px,1.9vw,24px);line-height:1.3;margin:0 0 6px}
+@media (max-width:820px){.intro{grid-template-columns:minmax(0,1fr)}.intro-quote{border-right:0;padding-right:0;padding-bottom:36px;border-bottom:1px solid var(--rule)}}
+
+/* plates */
+.plate{margin:0}
+.plate img{width:100%;height:auto;cursor:zoom-in}
+.bleed{padding-block:clamp(20px,3vw,40px)}
+.bleed .frame{overflow:hidden;aspect-ratio:16/9;max-width:100%}
+.bleed img{width:100%;height:116%;object-fit:cover;cursor:zoom-in;will-change:transform}
+
+/* room rows */
+.row{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(16px,2.4vw,32px);align-items:start;padding-block:clamp(36px,5vw,64px)}
+.row .plate{grid-column:1 / span 7}
+.row .text{grid-column:9 / span 4;display:flex;flex-direction:column;gap:18px;min-width:0}
+.row.flip .plate{grid-column:6 / span 7;grid-row:1}
+.row.flip .text{grid-column:1 / span 4;grid-row:1}
+.row.narrow .plate{grid-column:2 / span 5}
+.row.narrow.flip .plate{grid-column:7 / span 5}
+.row .pair{grid-column:1 / span 7;display:grid;grid-template-columns:3fr 2fr;gap:clamp(12px,2vw,24px);align-items:start}
+.row.flip .pair{grid-column:6 / span 7;grid-row:1}
+.row .pair .plate,.row.flip .pair .plate{grid-column:auto;grid-row:auto}
+@media (max-width:820px){
+  .row,.row.flip,.row.narrow,.row.narrow.flip{grid-template-columns:minmax(0,1fr);row-gap:28px}
+  .row .plate,.row.flip .plate,.row.narrow .plate,.row.narrow.flip .plate,.row .pair{grid-column:1;grid-row:1}
+  .row .text,.row.flip .text{grid-column:1;grid-row:2;max-width:34em}
+  .row.flip .pair{grid-column:1;grid-row:1}
+  .row .pair .plate{grid-column:auto;grid-row:auto}
+}
+
+/* reveal on scroll (only for content that starts below the fold) */
+.pre{opacity:0;transform:translateY(28px)}
+.reveal{transition:opacity 1.2s var(--ease),transform 1.2s var(--ease)}
+
+/* estate map */
+.map{position:relative;margin:0;max-width:100%}
+.map img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.pin{all:unset;position:absolute;width:34px;height:34px;transform:translate(-50%,-50%);cursor:pointer}
+.pin .dot{width:34px;height:34px;border-radius:50%;background:var(--paper);color:var(--ink);display:grid;place-items:center;font-family:var(--f-title);font-size:14px;box-shadow:0 0 0 6px rgba(255,255,255,.28),0 6px 18px rgba(0,0,0,.25);transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
+.pin .lbl{position:absolute;top:50%;left:calc(100% + 12px);font-family:var(--f-title);font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--paper);background:rgba(20,19,17,.72);padding:7px 12px;white-space:nowrap;opacity:0;transform:translate(-6px,-50%);transition:opacity .3s,transform .3s var(--ease);pointer-events:none}
+.pin.left .lbl{left:auto;right:calc(100% + 12px);transform:translate(6px,-50%)}
+.pin:hover .dot,.pin:focus-visible .dot{transform:scale(1.12);box-shadow:0 0 0 10px rgba(255,255,255,.35),0 6px 18px rgba(0,0,0,.3)}
+.pin:hover .lbl,.pin:focus-visible .lbl{opacity:1;transform:translate(0,-50%)}
+.pin:focus-visible{outline:none}
+.map{overflow:hidden}
+.legend{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 32px;padding-bottom:clamp(80px,10vw,140px)}
+.legend button{all:unset;cursor:pointer;display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--rule);width:100%;font-family:var(--f-title);font-size:13px;letter-spacing:.26em;text-transform:uppercase}
+.legend button span{color:var(--muted);letter-spacing:.1em;min-width:1.4em}
+.legend button:hover,.legend button:focus-visible{border-bottom-color:var(--ink)}
+@media (max-width:820px){.legend{grid-template-columns:repeat(2,minmax(0,1fr))}.pin{width:28px;height:28px}.pin .dot{width:28px;height:28px;font-size:12px}.pin .lbl{display:none}}
+@media (max-width:520px){.legend{grid-template-columns:minmax(0,1fr)}}
+
+/* gallery */
+.gallery-grid{display:none;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.6vw,22px);padding-bottom:0}
+.gallery-grid.all{display:grid}
+#gallery.expanded .strip,#gallery.expanded .strip-hint{display:none}
+.strip-hint{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:20px}
+.strip-hint .kicker{font-size:11px}
+@media (max-width:600px){.strip-hint .kicker:first-child:not(:last-child){display:none}.strip-hint.top-hint{justify-content:flex-end}}
+.strip-hint.foot{padding:20px var(--gut-r) 0 0}
+.strip{--edge:max(var(--gut),calc(50% - 660px + 16px));display:flex;gap:clamp(10px,1.2vw,16px);overflow-x:auto;overscroll-behavior-x:contain;padding-inline:var(--edge);scroll-padding-inline:var(--edge);scrollbar-width:none;cursor:grab;-webkit-overflow-scrolling:touch}
+.strip::-webkit-scrollbar{display:none}
+.strip.dragging{cursor:grabbing}
+.strip button{all:unset;flex:none;height:clamp(240px,36vw,520px);cursor:zoom-in;overflow:hidden;background:var(--stone)}
+.strip button:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.strip img{height:100%;width:100%;object-fit:cover;display:block;-webkit-user-drag:none;user-select:none;transition:transform .9s var(--ease)}
+.strip button:hover img{transform:scale(1.03)}
+.strip.dragging button:hover img{transform:none}
+.gallery-more{display:flex;justify-content:center;padding:clamp(36px,4vw,56px) 0 clamp(72px,9vw,120px)}
+.gallery-grid button{all:unset;cursor:zoom-in;display:block;overflow:hidden;background:var(--stone)}
+.gallery-grid button:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.gallery-grid img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .9s var(--ease)}
+.gallery-grid button:hover img{transform:scale(1.03)}
+@media (max-width:820px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* interactive plans */
+.tabs{display:flex;flex-wrap:wrap;gap:0 34px;border-bottom:1px solid var(--rule);margin-bottom:clamp(24px,3vw,40px)}
+.tabs button{all:unset;cursor:pointer;padding:14px 0;margin-bottom:-1px;border-bottom:1px solid transparent;font-family:var(--f-title);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted)}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.tabs button:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.planview{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:clamp(20px,3vw,48px);align-items:start}
+.planbox{position:relative;background:var(--paper);border:1px solid var(--rule)}
+.planbox img{width:100%;height:auto}
+.rpin{all:unset;position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--f-title);font-size:12px;cursor:pointer;box-shadow:0 0 0 5px rgba(31,30,28,.14);transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.rpin:hover,.rpin:focus-visible{transform:translate(-50%,-50%) scale(1.15)}
+.rpin[aria-pressed="true"]{box-shadow:0 0 0 5px var(--paper),0 0 0 6px var(--ink)}
+.roompanel{display:flex;flex-direction:column;gap:18px;min-width:0}
+.roompanel .photo{all:unset;cursor:zoom-in;display:block;overflow:hidden;background:var(--stone)}
+.roompanel .photo:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.roompanel img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:opacity .45s var(--ease)}
+.roomgal{display:flex;flex-direction:column;gap:12px}
+.roomnav{display:flex;align-items:center;gap:14px}
+.roomnav[hidden]{display:none}
+.roomnav button{all:unset;cursor:pointer;width:40px;height:40px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;color:var(--ink);transition:background .3s var(--ease),color .3s var(--ease)}
+.roomnav button:hover{background:var(--ink);color:var(--paper)}
+.roomnav button:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
+.roomnav span{font-family:var(--f-title);font-size:12px;letter-spacing:.28em;color:var(--muted);min-width:4.5em;text-align:center}
+.roompanel .hint{font-size:14px;color:var(--muted)}
+.planactions{display:flex;justify-content:flex-start;padding-top:clamp(24px,3vw,36px)}
+.fineprint{font-size:13px;line-height:1.6;color:var(--muted);padding-top:20px;padding-bottom:clamp(80px,10vw,140px)}
+@media (max-width:900px){.planview{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.rpin{width:24px;height:24px;font-size:11px}}
+
+/* contact */
+.agent{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,96px);align-items:center;padding-block:clamp(72px,9vw,120px)}
+.agent-photo{margin:0}
+.agent-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
+.agent-info{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
+.agent-info .logo{width:120px;height:auto;margin-block:8px 6px}
+.agent-name{margin:4px 0 0;font-family:var(--f-title);font-weight:400;font-size:clamp(24px,2.6vw,32px);line-height:1.2;letter-spacing:.3em;text-transform:uppercase}
+.agent-title{font-family:var(--f-title);font-size:14px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted)}
+.agent-lic{font-size:15px;color:var(--muted);margin-top:-6px}
+.agent-info .rule{margin-block:10px 4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.lines{margin:0;display:flex;flex-direction:column;gap:12px;width:100%}
+.line{display:grid;grid-template-columns:5.5em minmax(0,1fr);align-items:baseline;gap:12px}
+.line dt{font-family:var(--f-title);font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.line dd{margin:0;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;min-width:0}
+.line a{text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:2px;overflow-wrap:anywhere}
+.line a:hover{border-bottom-color:var(--ink)}
+.copy{all:unset;cursor:pointer;font-family:var(--f-title);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);padding:6px 0}
+.copy:hover{color:var(--ink)}
+.copy:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+.status{min-height:1.6em;font-size:14px;color:var(--muted)}
+@media (max-width:820px){.agent{grid-template-columns:minmax(0,1fr)}.agent-photo{max-width:420px}}
+
+footer{border-top:1px solid var(--rule)}
+footer .wrap{display:flex;flex-direction:column;align-items:center;gap:22px;padding-block:56px 64px;text-align:center}
+.mark{width:150px;height:auto}
+footer p{font-size:12px;line-height:1.7;color:var(--muted);max-width:52em}
+
+/* back to top */
+.totop{position:fixed;right:calc(max(16px,env(safe-area-inset-right,0px)) + 8px);bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:20;width:48px;height:48px;border-radius:50%;border:1px solid var(--ink);background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(6px);color:var(--ink);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .4s var(--ease),transform .4s var(--ease),background .3s,color .3s}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.totop:hover{background:var(--ink);color:var(--paper)}
+.totop:focus-visible{outline:1px solid var(--ink);outline-offset:4px}
+.totop svg{width:16px;height:16px}
+
+/* lightbox */
+.lb[hidden]{display:none}
+.lb{position:fixed;inset:0;z-index:50;background:var(--veil);display:flex;align-items:center;justify-content:center;padding:calc(56px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(64px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.lb img.plan{background:#fff;padding:12px}
+.lb .cap{position:absolute;left:0;right:0;bottom:calc(20px + env(safe-area-inset-bottom,0px));text-align:center;font-family:var(--f-title);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#E9E6DF}
+.lb button{all:unset;cursor:pointer;color:#E9E6DF;font-family:var(--f-title);font-size:12px;letter-spacing:.3em;text-transform:uppercase;padding:12px;position:absolute}
+.lb button:hover{color:#fff}
+.lb button:focus-visible{outline:1px solid #fff}
+.lb .x{top:calc(10px + env(safe-area-inset-top,0px));right:max(10px,env(safe-area-inset-right,0px))}
+.lb .prev{left:max(4px,env(safe-area-inset-left,0px));top:50%;transform:translateY(-50%);font-size:28px;letter-spacing:0}
+.lb .next{right:max(4px,env(safe-area-inset-right,0px));top:50%;transform:translateY(-50%);font-size:28px;letter-spacing:0}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .pre{opacity:1;transform:none}
+  .bleed img{height:100%;transform:none!important}
+}
+</style>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="brand" href="#estate">9325 Belle Terre Way</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#estate-map">The Estate</a>
+      <a href="#residence">The Residence</a>
+      <a href="#grounds">Grounds</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#plans">Floor Plans</a>
+      <a class="keep" href="#inquire">Inquire</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="estate" aria-label="9325 Belle Terre Way">
+    <div class="wrap">
+      <figure class="plate"><img src="img/web/111.jpg" alt="The main house at dusk, lit from within" data-i="111" fetchpriority="high"></figure>
+    </div>
+    <div class="wrap hero-text">
+      <h1 class="caps">9325 Belle Terre Way</h1>
+      <hr class="rule">
+      <p class="kicker" style="padding-left:.34em">Potomac, Maryland</p>
+    </div>
+  </section>
+
+  <section class="stone" aria-labelledby="h-estate">
+    <div class="wrap statement">
+      <h2 class="sr" id="h-estate">The Estate</h2>
+      <p class="quote">So private and picturesque that it feels like living at a resort.</p>
+      <hr class="rule">
+      <p class="kicker" style="padding-left:.34em">Three Gated Acres in Potomac</p>
+      <p class="lede-text" data-reveal>Set on three lush, gated acres in Potomac, 9325 Belle Terre Way is so private and picturesque that it feels like living at a resort. The estate includes a main house of approximately 8,400 square feet, the five-bedroom Rose Cottage, a pool and pool house, a sport court, and a potting shed. The current owners took the main house down to the studs and rebuilt it from the inside out, with exceptional attention to every exquisite detail.</p>
+    </div>
+  </section>
+
+  <section id="estate-map" aria-labelledby="h-map">
+    <div class="wrap chapter">
+      <p class="kicker" style="padding-left:.34em">Explore</p>
+      <h2 class="caps" id="h-map">The Estate from Above</h2>
+      <hr class="rule">
+      <p class="lede" style="text-align:center">Select a marker to explore each part of the property.</p>
+    </div>
+    <div class="wrap">
+      <figure class="map" data-reveal>
+        <img src="img/web/118.jpg" alt="Overhead aerial view of the full estate" loading="lazy">
+        <button class="pin" type="button" data-go="residence" style="left:46%;top:50%"><span class="dot">1</span><span class="lbl">The Main House</span></button>
+        <button class="pin left" type="button" data-go="cottage" style="left:24%;top:52%"><span class="dot">2</span><span class="lbl">Rose Cottage</span></button>
+        <button class="pin" type="button" data-go="pool" style="left:31%;top:18%"><span class="dot">3</span><span class="lbl">The Pool and Pool House</span></button>
+        <button class="pin left" type="button" data-go="court" style="left:15.5%;top:10%"><span class="dot">4</span><span class="lbl">The Sport Court</span></button>
+        <button class="pin left" type="button" data-go="court" style="left:79%;top:71%"><span class="dot">5</span><span class="lbl">The Potting Shed</span></button>
+        <button class="pin" type="button" data-go="grounds" style="left:68%;top:32%"><span class="dot">6</span><span class="lbl">The Lawn and Gardens</span></button>
+      </figure>
+      <ol class="legend">
+        <li><button type="button" data-go="residence"><span>1</span>The Main House</button></li>
+        <li><button type="button" data-go="cottage"><span>2</span>Rose Cottage</button></li>
+        <li><button type="button" data-go="pool"><span>3</span>The Pool and Pool House</button></li>
+        <li><button type="button" data-go="court"><span>4</span>The Sport Court</button></li>
+        <li><button type="button" data-go="court"><span>5</span>The Potting Shed</button></li>
+        <li><button type="button" data-go="grounds"><span>6</span>The Lawn and Gardens</button></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="residence" aria-labelledby="h-main">
+    <div class="wrap chapter">
+      <h2 class="caps" id="h-main">The Main House</h2>
+      <hr class="rule">
+    </div>
+
+    <div class="wrap row narrow">
+      <figure class="plate" data-reveal><img src="img/web/77.jpg" alt="Arched steel-and-glass front door" data-i="77" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Arrival</h3>
+        <p>Enter the main house through an arched steel-and-glass front door into a two-story foyer with a curved staircase.</p>
+      </div>
+    </div>
+
+    <div class="wrap bleed"><div class="frame"><img src="img/web/48.jpg" alt="Two-story foyer with curved staircase" data-i="48" data-px loading="lazy"></div></div>
+
+    <div class="wrap row flip">
+      <figure class="plate" data-reveal><img src="img/web/2.jpg" alt="The speakeasy, with its marble-topped bar and brass and glass shelving" data-i="2" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Speakeasy</h3>
+        <p>The living room has been reimagined as a speakeasy, with deep green walls, a marble-topped bar framed by brass and glass shelving, billiards, a gas fireplace, and a hidden door to the family room.</p>
+      </div>
+    </div>
+
+    <div class="wrap row">
+      <figure class="plate" data-reveal><img src="img/web/57.jpg" alt="Family room beneath a coffered ceiling" data-i="57" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Family Room</h3>
+        <p>A coffered ceiling, built-ins, and another gas fireplace give the family room its inviting character, while French doors open to the stone patio, continuing the effortless indoor/outdoor flow throughout the main level.</p>
+      </div>
+    </div>
+
+    <div class="wrap row flip narrow">
+      <figure class="plate" data-reveal><img src="img/web/44.jpg" alt="Dining room beneath a tray ceiling" data-i="44" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Dining Room</h3>
+        <p>The dining room sits beneath a tray ceiling and connects to the kitchen through a beautiful butler’s pantry.</p>
+      </div>
+    </div>
+
+    <div class="wrap bleed"><div class="frame"><img src="img/web/54.jpg" alt="La Cornue range beneath a custom hood and marble backsplash" data-i="54" data-px loading="lazy"></div></div>
+
+    <div class="wrap row">
+      <div class="pair" data-reveal>
+        <figure class="plate"><img src="img/web/52.jpg" alt="Waterfall marble island and walnut glass-front cabinetry" data-i="52" loading="lazy"></figure>
+        <figure class="plate"><img src="img/web/49.jpg" alt="Breakfast area with French doors" data-i="49" loading="lazy"></figure>
+      </div>
+      <div class="text" data-reveal>
+        <h3 class="room">The Kitchen</h3>
+        <p>The 32-foot eat-in kitchen centers on a waterfall marble island and features a La Cornue range beneath a custom hood, two dishwashers, a wine refrigerator, separate refrigerator and freezer columns, walnut glass-front cabinetry, and a walk-in pantry.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stone">
+    <div class="wrap statement" data-reveal>
+      <p class="kicker" style="padding-left:.34em">The Screened Porch</p>
+      <p class="quote">A room for every season.</p>
+      <hr class="rule">
+      <p class="body">The screened porch is a room for every season, with retractable screens, a wood-burning fireplace, built-in heaters, ceiling fans, and a built-in grill.</p>
+    </div>
+    <div class="wrap duo" data-reveal>
+      <figure class="plate"><img src="img/web/201.jpg" alt="Screened porch dining table overlooking the lawn" data-i="201" loading="lazy"></figure>
+      <figure class="plate"><img src="img/web/202.jpg" alt="Screened porch lounge opening to the stone terrace" data-i="202" loading="lazy"></figure>
+    </div>
+  </section>
+
+
+  <section aria-labelledby="h-up">
+    <div class="wrap chapter">
+      <h2 class="caps" id="h-up">Upstairs</h2>
+      <hr class="rule">
+    </div>
+
+    <div class="wrap row flip">
+      <figure class="plate" data-reveal><img src="img/web/29.jpg" alt="Primary bedroom with sitting area and fireplace" data-i="29" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Primary Suite</h3>
+        <p>Upstairs, the primary suite is a retreat of its own, featuring a sitting area with a gas fireplace and two beautifully appointed dressing rooms. One dressing room includes a center island and opens to a covered balcony.</p>
+      </div>
+    </div>
+
+    <div class="wrap bleed"><div class="frame"><img src="img/web/34.jpg" alt="Marble primary bath with freestanding tub and twin vanities" data-i="34" data-px loading="lazy"></div></div>
+
+    <div class="wrap row">
+      <div class="pair" data-reveal>
+        <figure class="plate"><img src="img/web/38.jpg" alt="Dressing room with center island" data-i="38" loading="lazy"></figure>
+        <figure class="plate"><img src="img/web/35.jpg" alt="Marble shower enclosure" data-i="35" loading="lazy"></figure>
+      </div>
+      <div class="text" data-reveal>
+        <h3 class="room">The Primary Bath</h3>
+        <p>The spectacular marble bathroom offers a freestanding tub, twin vanities, and a gorgeous shower with three shower heads.</p>
+      </div>
+    </div>
+
+    <div class="wrap row flip">
+      <figure class="plate" data-reveal><img src="img/web/19.jpg" alt="Skylit third-floor suite lined with built-ins" data-i="19" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Upper Levels</h3>
+        <p>Three additional bedrooms each have their own en-suite bath and walk-in closets; two occupy their own wing with a sitting area. A beautifully appointed laundry room with two sets of washers and dryers completes the level.</p>
+        <p>On the third floor, a skylit fifth bedroom suite or office is lined with built-ins and has a full bath of its own.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-low">
+    <div class="wrap chapter">
+      <h2 class="caps" id="h-low">The Lower Level</h2>
+      <hr class="rule">
+    </div>
+    <div class="wrap bleed"><div class="frame"><img src="img/web/66.jpg" alt="Home theater with bar area" data-i="66" data-px loading="lazy"></div></div>
+    <div class="wrap row">
+      <div class="pair" data-reveal>
+        <figure class="plate"><img src="img/web/63.jpg" alt="Glass-enclosed wine room" data-i="63" loading="lazy"></figure>
+        <figure class="plate"><img src="img/web/205.jpg" alt="Mudroom with built-in lockers" data-i="205" loading="lazy"></figure>
+      </div>
+      <div class="text" data-reveal>
+        <h3 class="room">Theater and Wine Room</h3>
+        <p>The lower level features a home theater with a bar area, a glass-enclosed wine room, a bedroom with a full bath, and an office with a built-in desk and shelving.</p>
+        <p>A three-car garage and a mudroom with built-in lockers are conveniently located on this level.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="grounds" aria-labelledby="h-out">
+    <div class="wrap chapter">
+      <h2 class="caps" id="h-out">The Grounds</h2>
+      <hr class="rule">
+      <p class="lede" data-reveal>The grounds have been completely relandscaped, with 80 new trees, new beds, a perimeter fence, irrigation, and landscape lighting throughout. A new stone pathway winds from the back of the house down to the pool, set on its own level of the property. This thoughtful placement creates a true retreat while allowing the landscaped grounds to take center stage in views from the house.</p>
+    </div>
+    <div class="wrap bleed"><div class="frame"><img src="img/web/80.jpg" alt="The 62-foot pool and pool house" data-i="80" data-px loading="lazy"></div></div>
+    <div class="wrap row" id="pool">
+      <div class="pair" data-reveal>
+        <figure class="plate"><img src="img/web/203.jpg" alt="Pool house beneath its vaulted ceiling" data-i="203" loading="lazy"></figure>
+        <figure class="plate"><img src="img/web/91.jpg" alt="Pool terrace and pool house" data-i="91" loading="lazy"></figure>
+      </div>
+      <div class="text" data-reveal>
+        <h3 class="room">The Pool and Pool House</h3>
+        <p>The 62-foot pool has been rebuilt with a new deck, waterline tile, lights, heater, pump, Wi-Fi controls, and cover. Beside it, the heated and air-conditioned pool house features a kitchenette, bath, and changing room.</p>
+      </div>
+    </div>
+    <div class="wrap row flip" id="cottage">
+      <div class="pair" data-reveal>
+        <figure class="plate"><img src="img/web/206.jpg" alt="Rose Cottage living room with a gas fireplace" data-i="206" loading="lazy"></figure>
+        <figure class="plate"><img src="img/web/117.jpg" alt="Aerial view of the estate with Rose Cottage beyond the main house" data-i="117" loading="lazy"></figure>
+      </div>
+      <div class="text" data-reveal>
+        <h3 class="room">Rose Cottage</h3>
+        <p>The outdoors are just as extraordinary. A stone path leads to Rose Cottage, a fully refurbished guest house completed in 2023 and large enough for a whole family to stay. It offers five bedrooms, two baths, a kitchen, a living room with a gas fireplace, and a finished lower level with a family room and laundry. A new boiler, central air on a Nest system, new windows and doors, and its own patio complete the cottage.</p>
+      </div>
+    </div>
+    <div class="wrap duo cottage-duo" data-reveal>
+      <figure class="plate"><img src="img/web/305.jpg" alt="Rose Cottage kitchen" data-i="305" loading="lazy"></figure>
+      <figure class="plate"><img src="img/web/306.jpg" alt="Rose Cottage finished lower level" data-i="306" loading="lazy"></figure>
+    </div>
+    <div class="wrap row narrow" id="court">
+      <figure class="plate" data-reveal><img src="img/web/204.jpg" alt="The sport court beneath the trees" data-i="204" loading="lazy"></figure>
+      <div class="text" data-reveal>
+        <h3 class="room">The Sport Court</h3>
+        <p>Follow the path below to a tucked-away sport court, redone in 2023. A restored potting shed with attic storage and its own patio completes the estate.</p>
+      </div>
+    </div>
+    <div class="wrap bleed"><div class="frame"><img src="img/web/97.jpg" alt="The rear lawn and main house" data-i="97" data-px loading="lazy"></div></div>
+  </section>
+
+  <section class="stone">
+    <div class="wrap statement" data-reveal>
+      <p class="kicker" style="padding-left:.34em">Exquisitely Transformed</p>
+      <p class="quote">Every day feels like a vacation.</p>
+      <hr class="rule">
+      <p class="body">9325 Belle Terre Way has been exquisitely transformed. The result is a rare private estate where every day feels like a vacation, just minutes from everything Potomac has to offer.</p>
+    </div>
+  </section>
+
+  <section id="gallery" aria-labelledby="h-gal">
+    <div class="wrap chapter">
+      <p class="kicker" style="padding-left:.34em">Photography</p>
+      <h2 class="caps" id="h-gal">The Gallery</h2>
+      <hr class="rule">
+    </div>
+    <div class="wrap strip-hint top-hint"><span class="kicker" style="padding-left:0">Selected Photographs</span><span class="kicker" aria-hidden="true">Drag or Scroll &rarr;</span></div>
+    <div class="strip" id="strip" aria-label="Selected photographs"></div>
+    <div class="wrap strip-hint"><span class="kicker" style="padding-top:20px">Click any frame to enlarge</span></div>
+    <div class="wrap"><div class="gallery-grid" id="grid"></div><div class="gallery-more"><button class="btn" type="button" id="galmore" aria-expanded="false" aria-controls="grid">View All Photographs</button></div></div>
+  </section>
+
+  <section id="plans" class="stone" aria-labelledby="h-plans">
+    <div class="wrap chapter">
+      <p class="kicker" style="padding-left:.34em">Floor Plans</p>
+      <h2 class="caps" id="h-plans">The Plans</h2>
+      <hr class="rule">
+      <p class="lede" style="text-align:center">Select a numbered room to see it.</p>
+    </div>
+    <div class="wrap">
+      <div class="tabs" role="tablist" aria-label="Floor plans" id="tabs"></div>
+      <div class="planview">
+        <div class="planbox" id="planbox">
+          <img id="planimg" src="plans/fp-000.jpg" alt="Main house, main level floor plan">
+          <div id="rpins"></div>
+        </div>
+        <aside class="roompanel" aria-live="polite">
+          <div class="roomgal">
+            <button class="photo" type="button" id="roomphoto" aria-label="View this photograph larger"><img id="roomimg" src="img/web/2.jpg" alt=""></button>
+            <div class="roomnav" id="roomnav" hidden>
+              <button type="button" id="roomprev" aria-label="Previous photograph of this room"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+              <span id="roomcount" aria-live="polite">1 / 2</span>
+              <button type="button" id="roomnext" aria-label="Next photograph of this room"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></button>
+            </div>
+          </div>
+          <h3 class="room" id="roomname">The Speakeasy</h3>
+          <p id="roomnote"></p>
+          <p class="hint" id="roomhint"></p>
+        </aside>
+      </div>
+      <div class="planactions"><button class="btn" type="button" id="planfull">View Full Floor Plan</button></div>
+      <p class="fineprint">Floor plans © 2026 S. Gronvall, interiorfootprints.com. All illustrations and dimensions are approximate and have been rounded.</p>
+    </div>
+  </section>
+
+  <section id="inquire" class="stone" aria-labelledby="h-inq">
+    <div class="wrap agent">
+      <figure class="agent-photo" data-reveal><img src="brand/shari-gronvall.jpg" alt="Shari Gronvall" loading="lazy"></figure>
+      <div class="agent-info" data-reveal>
+        <p class="kicker">Presented by</p>
+        <img class="logo" src="brand/sg-logo-web.png" alt="">
+        <h2 class="agent-name" id="h-inq">Shari Gronvall</h2>
+        <p class="agent-title">Senior Vice President</p>
+        <p class="agent-lic">Realtor® · Licensed in DC, MD and VA</p>
+        <hr class="rule">
+        <dl class="lines">
+          <div class="line"><dt>Mobile</dt><dd><a href="tel:+12023607648">202.360.7648</a><button class="copy" type="button" data-copy="202.360.7648">Copy</button></dd></div>
+          <div class="line"><dt>Office</dt><dd><a href="tel:+13012981001">301.298.1001</a><button class="copy" type="button" data-copy="301.298.1001">Copy</button></dd></div>
+          <div class="line"><dt>Email</dt><dd><a href="mailto:shari.gronvall@compass.com">shari.gronvall@compass.com</a><button class="copy" type="button" data-copy="shari.gronvall@compass.com">Copy</button></dd></div>
+        </dl>
+        <div class="actions">
+          <a class="btn" href="mailto:shari.gronvall@compass.com?subject=Private%20showing%3A%209325%20Belle%20Terre%20Way&amp;body=Hello%20Shari%2C%0A%0AI%20would%20like%20to%20arrange%20a%20private%20showing%20of%209325%20Belle%20Terre%20Way.%0A%0AName%3A%0APhone%3A%0APreferred%20days%20and%20times%3A%0A">Request a Private Showing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img class="mark" src="brand/compass-logo.png" alt="Compass">
+    <p>Compass is a licensed real estate broker under the name “Compass Real Estate” in the District of Columbia and under the name “Compass” in Virginia and Maryland and abides by Equal Housing Opportunity laws. All material presented herein is intended for informational purposes only. Information is compiled from sources deemed reliable but is subject to errors, omissions, changes in price, condition, sale, or withdrawal without notice. This is not intended to solicit property already listed. Photos may be virtually staged or digitally enhanced and may not reflect actual property conditions.</p>
+  </div>
+</footer>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5"/></svg></button>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photograph viewer">
+  <button class="x" type="button" id="lbx">Close</button>
+  <button class="prev" type="button" id="lbp" aria-label="Previous">‹</button>
+  <img id="lbi" alt="">
+  <button class="next" type="button" id="lbn" aria-label="Next">›</button>
+  <div class="cap" id="lbc"></div>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- photographs ---------- */
+  var photos=[
+    [111,"The main house at dusk"],[73,"Front facade"],[77,"Front entry"],[48,"Foyer"],[26,"Upper landing"],
+    [2,"The speakeasy"],[4,"The speakeasy"],[57,"Family room"],[58,"Family room"],
+    [44,"Dining room"],[45,"Dining room"],[46,"Dining room"],[49,"Breakfast area"],[301,"Kitchen"],[52,"Kitchen"],[54,"Kitchen"],[302,"Butler's pantry"],[201,"Screened porch"],[202,"Screened porch"],
+    [29,"Primary suite"],[317,"Primary suite"],[303,"Primary suite sitting area"],[38,"Dressing room"],[39,"Dressing room"],[32,"Primary bath"],[34,"Primary bath"],[35,"Primary bath"],[36,"Primary bath"],
+    [22,"En-suite bath"],[24,"Laundry room"],[209,"Bedroom two"],[312,"Bedroom two"],[210,"Bedroom three"],[316,"Bedroom three"],[315,"Bedroom three bath"],[207,"Bedroom four"],[208,"Bedroom four"],[314,"Bedroom four bath"],[19,"Third-floor suite"],[304,"Third-floor suite"],[21,"Third-floor suite"],[309,"Third-floor bath"],
+    [66,"Theater"],[313,"Theater"],[63,"Wine room"],[308,"Lower level bedroom"],[205,"Mudroom"],[95,"Rear facade"],[97,"The lawn"],[80,"Pool"],[91,"Pool and pool house"],[206,"Rose Cottage living room"],[311,"Rose Cottage dining room"],[305,"Rose Cottage kitchen"],[306,"Rose Cottage lower level"],[307,"Rose Cottage lower level"],[203,"Pool house"],[310,"Pool house bath"],[204,"Sport court"],
+    [113,"Aerial"],[114,"Aerial"],[117,"Aerial"],[118,"Aerial"]
+  ];
+  var plansData=[
+    {tab:"Main Level",src:"plans/fp-000.jpg",alt:"Main house, main level floor plan",rooms:[
+      {n:"The Speakeasy",x:16,y:59,p:[2,4],t:"The living room, reimagined as a speakeasy with a marble-topped bar, billiards and a hidden door to the family room."},
+      {n:"The Family Room",x:15,y:31,p:[57,58],t:"A coffered ceiling, built-ins and a gas fireplace, with French doors to the stone patio."},
+      {n:"The Kitchen",x:31,y:34,p:[301,54,52,49],t:"The 32-foot eat-in kitchen, centered on a waterfall marble island with a La Cornue range."},
+      {n:"The Screened Porch",x:31.6,y:21,p:[201,202],t:"A room for every season, with retractable screens, a wood-burning fireplace, built-in heaters, ceiling fans and a built-in grill."},
+      {n:"The Foyer",x:26.5,y:61,p:[48,26],t:"A two-story foyer with a curved staircase."},
+      {n:"The Dining Room",x:34.5,y:60,p:[44,45,46,302],t:"Beneath a tray ceiling, connected to the kitchen through the butler's pantry."}]},
+    {tab:"Upper and Lower Levels",src:"plans/fp-001.jpg",alt:"Main house, second, third and lower level floor plans",rooms:[
+      {n:"The Primary Suite",x:15.5,y:34,p:[29,317,303],t:"A sitting area with a gas fireplace and two dressing rooms."},
+      {n:"The Primary Bath",x:10,y:52,p:[34,32,36,35],t:"Marble throughout, with a freestanding tub, twin vanities and a three-head shower."},
+      {n:"The Dressing Room",x:26,y:31,p:[38,39],t:"A center island, opening to the covered balcony."},
+      {n:"Bedroom Two",x:35.6,y:31,p:[209,312],t:"One of three additional bedrooms, each with its own en-suite bath and walk-in closet."},
+      {n:"Bedroom Three",x:48.6,y:44,p:[210,316,315],t:"One of two bedrooms in their own wing with a sitting area, with an en-suite bath and walk-in closet."},
+      {n:"Bedroom Four",x:48.6,y:57.4,p:[207,208,314],t:"One of two bedrooms in their own wing with a sitting area, with an en-suite bath and walk-in closet."},
+      {n:"The Laundry Room",x:35,y:49,p:24,t:"Two sets of washers and dryers."},
+      {n:"The Third Floor",x:17,y:74,p:[19,304,21,309],t:"A skylit bedroom suite or office lined with built-ins, with a full bath of its own."},
+      {n:"The Theater",x:69,y:57,p:[66,313],t:"A home theater with its own bar area."},
+      {n:"Lower Level Bedroom",x:80.5,y:50.5,p:[308],t:"The lower level also features a bedroom with a full bath."},
+      {n:"The Wine Room",x:86,y:56,p:63,t:"A glass-enclosed wine room."}]},
+    {tab:"Rose Cottage",src:"plans/fp-002.jpg",alt:"Rose Cottage floor plans",rooms:[
+      {n:"Living and Dining",x:37,y:28,p:[206,311],t:"Rose Cottage's living and dining rooms, with a gas fireplace. Five bedrooms, two baths and a finished lower level complete the guest house."},
+      {n:"The Kitchen",x:26,y:33,p:305,t:"The cottage kitchen, part of the full refurbishment completed in 2023."},
+      {n:"The Lower Level",x:83,y:74,p:[306,307],t:"A finished lower level with a family room and laundry."}],
+      intro:{n:"Rose Cottage",p:117,t:"Five bedrooms, two baths, a kitchen, a living room with a gas fireplace and a finished lower level with a family room and laundry. Fully refurbished and completed in 2023."}},
+    {tab:"Pool and Grounds",src:"plans/fp-003.jpg",alt:"Pool house, pool and sport court plan",rooms:[
+      {n:"The Pool",x:40,y:53,p:[80,91],t:"The 62-foot pool, rebuilt with a new deck, waterline tile, heater and Wi-Fi controls."},
+      {n:"The Sport Court",x:16,y:27,p:204,t:"A tucked-away sport court, redone in 2023."},
+      {n:"The Pool House",x:57,y:30,p:[203,91,310],t:"Heated and air-conditioned, with a kitchenette, bath and changing room."}]}
+  ];
+
+  /* ---------- gallery ---------- */
+  var FEATURED=[[111,'3/2'],[48,'4/5'],[2,'3/2'],[301,'1/1'],[201,'3/2'],[34,'4/5'],[29,'3/2'],[63,'4/5'],[80,'3/2'],[203,'1/1'],[204,'3/2'],[97,'3/2']];
+  var grid=document.getElementById('grid');
+  photos.forEach(function(p,i){
+    var b=document.createElement('button');b.type='button';b.setAttribute('aria-label','View photograph: '+p[1]);
+    var im=document.createElement('img');im.src='img/thumb/'+p[0]+'.jpg';im.alt=p[1];im.loading='lazy';
+    b.appendChild(im);b.addEventListener('click',function(){openLB('photo',i,b)});grid.appendChild(b);
+  });
+  var gm=document.getElementById('galmore');gm.textContent='View All '+photos.length+' Photographs';
+  var strip=document.getElementById('strip'),gal=document.getElementById('gallery');
+  FEATURED.forEach(function(f){
+    var i=photoIndex(f[0]),b=document.createElement('button');b.type='button';b.setAttribute('aria-label','View photograph: '+photos[i][1]);b.style.aspectRatio=f[1];
+    var im=document.createElement('img');im.src='img/web/'+f[0]+'.jpg';im.alt=photos[i][1];im.loading='lazy';im.draggable=false;
+    b.appendChild(im);b.addEventListener('click',function(e){if(dragged){e.preventDefault();return}openLB('photo',i,b)});strip.appendChild(b);
+  });
+  var dragged=false,down=null;
+  strip.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down={x:e.clientX,s:strip.scrollLeft};dragged=false});
+  window.addEventListener('pointermove',function(e){if(!down)return;var dx=e.clientX-down.x;if(Math.abs(dx)>5){dragged=true;strip.classList.add('dragging')}if(dragged)strip.scrollLeft=down.s-dx});
+  window.addEventListener('pointerup',function(){if(!down)return;down=null;strip.classList.remove('dragging');setTimeout(function(){dragged=false},0)});
+  gm.addEventListener('click',function(){var on=grid.classList.toggle('all');gal.classList.toggle('expanded',on);gm.setAttribute('aria-expanded',on);gm.textContent=on?'Show Fewer':'View All '+photos.length+' Photographs';if(!on)document.getElementById('gallery').scrollIntoView({behavior:reduce?'auto':'smooth'})});
+
+  /* ---------- lightbox ---------- */
+  var lb=document.getElementById('lb'),lbi=document.getElementById('lbi'),lbc=document.getElementById('lbc');
+  var mode='photo',idx=0,last=null;
+  function list(){return mode==='photo'?photos.map(function(p){return['img/web/'+p[0]+'.jpg',p[1]]}):plansData.map(function(p){return[p.src,p.tab]})}
+  function show(){var l=list();idx=(idx+l.length)%l.length;lbi.src=l[idx][0];lbi.alt=l[idx][1];lbi.className=mode==='plan'?'plan':'';lbc.textContent=l[idx][1]+'  ·  '+(idx+1)+' / '+l.length}
+  function openLB(m,i,from){mode=m;idx=i;last=from||null;show();lb.hidden=false;document.body.style.overflow='hidden';document.getElementById('lbx').focus()}
+  function photoIndex(n){var i=photos.findIndex(function(p){return p[0]===n});return i<0?0:i}
+  function closeLB(){lb.hidden=true;document.body.style.overflow='';if(last)last.focus()}
+  document.getElementById('lbx').onclick=closeLB;
+  document.getElementById('lbp').onclick=function(){idx--;show()};
+  document.getElementById('lbn').onclick=function(){idx++;show()};
+  lb.addEventListener('click',function(e){if(e.target===lb)closeLB()});
+  lb.addEventListener('keydown',function(e){if(e.key==='Escape')closeLB();else if(e.key==='ArrowLeft'){idx--;show()}else if(e.key==='ArrowRight'){idx++;show()}});
+  var tx=null;lb.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  lb.addEventListener('touchend',function(e){if(tx===null)return;var d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50){idx+=d<0?1:-1;show()}tx=null});
+  document.querySelectorAll('main img[data-i]').forEach(function(im){
+    im.addEventListener('click',function(){openLB('photo',photoIndex(+im.getAttribute('data-i')),im)});
+  });
+
+  /* ---------- estate map ---------- */
+  document.querySelectorAll('[data-go]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=document.getElementById(b.getAttribute('data-go'));
+      if(t)t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    });
+  });
+
+  /* ---------- interactive plans ---------- */
+  var tabs=document.getElementById('tabs'),planimg=document.getElementById('planimg'),rpins=document.getElementById('rpins');
+  var roomimg=document.getElementById('roomimg'),roomname=document.getElementById('roomname'),roomnote=document.getElementById('roomnote'),roomhint=document.getElementById('roomhint'),roomphoto=document.getElementById('roomphoto');
+  var curPhoto=2,tabBtns=[];
+  var roomSet=[],roomIdx=0,roomN='',roomnav=document.getElementById('roomnav'),roomcount=document.getElementById('roomcount');
+  function showRoomPhoto(k){
+    roomIdx=(k+roomSet.length)%roomSet.length;curPhoto=roomSet[roomIdx];
+    roomimg.style.opacity=0;
+    var src='img/web/'+curPhoto+'.jpg',n=roomN,c=curPhoto;
+    var pre=new Image();pre.onload=pre.onerror=function(){if(c!==curPhoto)return;roomimg.src=src;roomimg.alt=n;roomimg.style.opacity=1};pre.src=src;
+    roomcount.textContent=(roomIdx+1)+' / '+roomSet.length;
+    roomSet.forEach(function(q){var im=new Image();im.src='img/web/'+q+'.jpg'});
+  }
+  document.getElementById('roomprev').addEventListener('click',function(){showRoomPhoto(roomIdx-1)});
+  document.getElementById('roomnext').addEventListener('click',function(){showRoomPhoto(roomIdx+1)});
+  (function(){var x0=null;roomphoto.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+    roomphoto.addEventListener('touchend',function(e){if(x0===null||roomSet.length<2)return;var dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>40){roomphoto.dataset.swiped='1';showRoomPhoto(roomIdx+(dx<0?1:-1))}})})();
+  function setRoom(r,btn){
+    roomSet=[].concat(r.p);roomN=r.n;roomnav.hidden=roomSet.length<2;showRoomPhoto(0);
+    roomname.textContent=r.n;roomnote.textContent=r.t;
+    rpins.querySelectorAll('.rpin').forEach(function(p){p.setAttribute('aria-pressed',p===btn?'true':'false')});
+  }
+  function setPlan(i){
+    var p=plansData[i];
+    tabBtns.forEach(function(b,k){b.setAttribute('aria-selected',k===i?'true':'false');b.tabIndex=k===i?0:-1});
+    planimg.src=p.src;planimg.alt=p.alt;rpins.innerHTML='';
+    p.rooms.forEach(function(r,k){
+      var b=document.createElement('button');b.type='button';b.className='rpin';b.textContent=k+1;
+      b.style.left=r.x+'%';b.style.top=r.y+'%';b.setAttribute('aria-label',r.n);b.setAttribute('aria-pressed','false');
+      b.addEventListener('click',function(){setRoom(r,b)});rpins.appendChild(b);
+    });
+    if(p.rooms.length){setRoom(p.rooms[0],rpins.firstChild);roomhint.textContent=p.rooms.length+' rooms marked on this plan.'}
+    else{setRoom(p.intro,null);roomhint.textContent='Use View Full Floor Plan to see it larger.'}
+  }
+  plansData.forEach(function(p,i){
+    var b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.textContent=p.tab;
+    b.addEventListener('click',function(){setPlan(i)});
+    b.addEventListener('keydown',function(e){
+      if(e.key==='ArrowRight'||e.key==='ArrowLeft'){var n=(i+(e.key==='ArrowRight'?1:-1)+plansData.length)%plansData.length;setPlan(n);tabBtns[n].focus()}
+    });
+    tabs.appendChild(b);tabBtns.push(b);
+  });
+  planimg.style.cursor='zoom-in';
+  function openPlan(from){var i=tabBtns.findIndex(function(b){return b.getAttribute('aria-selected')==='true'});openLB('plan',i<0?0:i,from)}
+  planimg.addEventListener('click',function(){openPlan(planimg)});
+  document.getElementById('planfull').addEventListener('click',function(){openPlan(this)});
+  roomphoto.addEventListener('click',function(){if(roomphoto.dataset.swiped){delete roomphoto.dataset.swiped;return}openLB('photo',photoIndex(curPhoto),roomphoto)});
+  setPlan(0);
+
+  /* ---------- contact: copy ---------- */
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.getAttribute('data-copy');
+      function done(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1600)}
+      function fallback(){var a=b.previousElementSibling;var r=document.createRange();r.selectNodeContents(a);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected'}
+      try{navigator.clipboard.writeText(t).then(done,fallback)}catch(e){fallback()}
+    });
+  });
+  /* ---------- header ---------- */
+  var top=document.getElementById('top');
+  var totop=document.getElementById('totop');
+  function onScroll(){top.classList.toggle('scrolled',scrollY>8);totop.classList.toggle('show',scrollY>innerHeight*0.9)}
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  totop.addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});document.querySelector('.brand').focus({preventScroll:true})});
+
+  /* ---------- motion: gentle reveals + slow drift on wide photographs ---------- */
+  if(!reduce&&'IntersectionObserver' in window){
+    var vh=innerHeight;
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('[data-reveal]').forEach(function(el){
+      if(el.getBoundingClientRect().top>vh*0.92){el.classList.add('pre');requestAnimationFrame(function(){el.classList.add('reveal')});io.observe(el)}
+    });
+    setTimeout(function(){document.querySelectorAll('.pre').forEach(function(el){if(el.getBoundingClientRect().top<innerHeight)el.classList.remove('pre')})},3000);
+    var px=[].slice.call(document.querySelectorAll('img[data-px]')),ticking=false;
+    function drift(){
+      ticking=false;var h=innerHeight;
+      px.forEach(function(im){var f=im.parentNode.getBoundingClientRect();if(f.bottom<0||f.top>h)return;
+        var prog=(f.top+f.height/2-h/2)/(h/2+f.height/2);im.style.transform='translateY('+(-7-prog*7).toFixed(2)+'%)'});
+    }
+    addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(drift)}},{passive:true});
+    addEventListener('resize',drift);drift();
+  }
+})();
+</script>
