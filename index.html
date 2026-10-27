@@ -687,7 +687,7 @@ footer p{font-size:12px;line-height:1.7;color:var(--muted);max-width:52em}
       b.style.left=r.x+'%';b.style.top=r.y+'%';b.setAttribute('aria-label',r.n);b.setAttribute('aria-pressed','false');
       b.addEventListener('click',function(){setRoom(r,b)});rpins.appendChild(b);
     });
-    if(p.rooms.length){setRoom(p.rooms[0],rpins.firstChild);roomhint.textContent=p.rooms.length+' rooms marked on this plan.'}
+    if(p.rooms.length){setRoom(p.rooms[0],rpins.firstChild);roomhint.textContent=''}
     else{setRoom(p.intro,null);roomhint.textContent='Use View Full Floor Plan to see it larger.'}
   }
   plansData.forEach(function(p,i){
