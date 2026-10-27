@@ -649,10 +649,21 @@ footer p{font-size:12px;line-height:1.7;color:var(--muted);max-width:52em}
   });
 
   /* ---------- estate map ---------- */
+  /* scroll to a section, correcting as lazy photos above it load and shift the page */
+  var goTimer=null;
+  function goTo(t){
+    var hdr=document.getElementById('top'),beh=reduce?'auto':'smooth';
+    function y(){return Math.max(0,t.getBoundingClientRect().top+scrollY-(hdr?hdr.offsetHeight:0))}
+    var last=y(),n=0;scrollTo({top:last,behavior:beh});
+    clearInterval(goTimer);
+    function stop(){clearInterval(goTimer);removeEventListener('wheel',stop);removeEventListener('touchstart',stop)}
+    addEventListener('wheel',stop,{passive:true});addEventListener('touchstart',stop,{passive:true});
+    goTimer=setInterval(function(){var ny=y();if(Math.abs(ny-last)>2){last=ny;scrollTo({top:ny,behavior:beh})}if(++n>40)stop()},120);
+  }
   document.querySelectorAll('[data-go]').forEach(function(b){
     b.addEventListener('click',function(){
       var t=document.getElementById(b.getAttribute('data-go'));
-      if(t)t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+      if(t)goTo(t);
     });
   });
 
