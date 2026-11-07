@@ -71,6 +71,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .statement{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px;padding-block:clamp(64px,8vw,112px)}
 .statement .quote{font-family:var(--f-title);font-weight:400;font-size:clamp(18px,2.4vw,28px);line-height:1.55;letter-spacing:.3em;padding-left:.3em;text-transform:uppercase;max-width:22em;text-wrap:balance;margin:0}
 .statement p.body{max-width:27em;text-wrap:balance}
+.statement .credit{margin:6px 0 0;font-family:var(--f-title);font-size:12px;letter-spacing:.3em;padding-left:.3em;text-transform:uppercase;color:var(--muted)}
+.statement .credit a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:2px;transition:border-color .3s var(--ease)}
+.statement .credit a:hover{border-bottom-color:var(--ink)}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,2vw,24px);padding-bottom:clamp(56px,7vw,96px)}
 .cottage-duo{padding-bottom:0;padding-top:0}
 .duo .plate img{aspect-ratio:3/2;object-fit:cover}
@@ -474,6 +477,7 @@ footer p{font-size:12px;line-height:1.7;color:var(--muted);max-width:52em}
       <p class="quote">Every day feels like a vacation.</p>
       <hr class="rule">
       <p class="body">9325 Belle Terre Way has been exquisitely transformed. The result is a rare private estate where every day feels like a vacation, just minutes from everything Potomac has to offer.</p>
+      <p class="credit">Designed by <a href="https://hudsongraydesign.com" target="_blank" rel="noopener">Hudson Gray Design</a></p>
     </div>
   </section>
 
